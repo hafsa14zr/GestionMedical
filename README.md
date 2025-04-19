@@ -12,7 +12,7 @@ Application complète de gestion médicale avec classes `Patient`, `Medecin` et 
 
 ## Comment l'exécuter
 ```bash
-python gestion_medicale.py
+python GestionMedical.py
 ```
 
 ## Exemple de code
@@ -21,6 +21,9 @@ python gestion_medicale.py
 p = Patient("Dupont", 45, 70.5, 175, 120, False)
 print(p.IMC())  
 ```
+## Capture d'écran
+![image](https://github.com/user-attachments/assets/e00873c9-935d-497e-bc67-b26b981dea1f)
+
 
 ## Auteur
 [hafsa14zr](https://github.com/hafsa14zr)# GestionMedical

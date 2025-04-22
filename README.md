@@ -1,29 +1,28 @@
-#  Système de Gestion Médicale (POO Python)
+#  Medical Management System (OOP Python)
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
 
-Application complète de gestion médicale avec classes `Patient`, `Medecin` et `Consultation`.
+A complete medical management application with 'Patient', 'Doctor', and 'Consultation' classes.
+## Key Features
+✅ Patient management (BMI, risk score)
+✅ Doctors with specialties and ranks
+✅ Automatic data saving using pickle
+✅ Interactive console menu
 
-## Fonctionnalités clés
-- ✅ Gestion des patients (IMC, score de risque)
-- ✅ Médecins avec spécialités et grades
-- ✅ Sauvegarde automatique des données (`pickle`)
-- ✅ Menu console interactif
-
-## Comment l'exécuter
+## How to Run
 ```bash
 python GestionMedical.py
 ```
 
-## Exemple de code
+## Code Example
 ```python
-# Création d'un patient
+# Creating a patient
 p = Patient("Dupont", 45, 70.5, 175, 120, False)
 print(p.IMC())  
 ```
-## Capture d'écran
+## Screenshot
 ![image](https://github.com/user-attachments/assets/e00873c9-935d-497e-bc67-b26b981dea1f)
 
 
-## Auteur
+## Author
 [hafsa14zr](https://github.com/hafsa14zr)# GestionMedical
